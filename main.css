@@ -50,6 +50,11 @@ table {
 
 h1 {
   font-size: 2rem;
-  color: red;
-  font-family: "Montserrat, sans-serif";
+  color: coral;
+  font-family: "Monetserrat", sans-serif;
+}
+
+#this-interior-supertitle {
+  font-family: "Crimsonpro", serif;
+  color: black;
 }/*# sourceMappingURL=main.css.map */
