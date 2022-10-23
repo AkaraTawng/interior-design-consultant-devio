@@ -48,13 +48,22 @@ table {
   border-spacing: 0;
 }
 
-h1 {
-  font-size: 2rem;
-  color: coral;
-  font-family: "Monetserrat", sans-serif;
+body {
+  font-family: "montserrat", sans-serif;
+  color: purple;
 }
 
 #this-interior-supertitle {
   font-family: "Crimsonpro", serif;
   color: black;
+}
+
+#header-h1 {
+  font-family: "Lora", sans-serif;
+  font-weight: 500;
+}
+
+#designer-description {
+  font-family: "Lora", sans-serif;
+  font-weight: 700;
 }/*# sourceMappingURL=main.css.map */
