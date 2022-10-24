@@ -96,4 +96,9 @@ footer p {
 footer a {
   font-family: inherit;
   font-weight: 700;
+}
+
+.image-image-label-container img {
+  width: 30%;
+  height: 30%;
 }/*# sourceMappingURL=main.css.map */
