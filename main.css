@@ -50,12 +50,18 @@ table {
 
 body {
   font-family: "montserrat", sans-serif;
-  color: purple;
+  color: white;
+  background-color: #181719;
+}
+body h1 {
+  color: white;
+}
+body a {
+  color: white;
 }
 
 #this-interior-supertitle {
   font-family: "Crimsonpro", serif;
-  color: black;
 }
 
 #header-h1 {
@@ -89,6 +95,9 @@ body {
   font-weight: 700;
 }
 
+footer {
+  color: #A9A9A9;
+}
 footer p {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
@@ -96,6 +105,7 @@ footer p {
 footer a {
   font-family: inherit;
   font-weight: 700;
+  color: #A9A9A9;
 }
 
 .image-image-label-container img {

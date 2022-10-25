@@ -2,12 +2,21 @@
 
 body {
     font-family: "montserrat", sans-serif;
-    color: purple;
+    color: white;
+    background-color: #181719;
+
+    h1 {
+        color: white;
+    }
+
+    a {
+        color: white;
+    }
+
 }
 
 #this-interior-supertitle {
     font-family: "Crimsonpro", serif;
-    color: black;
 }
 
 #header-h1 {
@@ -42,6 +51,7 @@ body {
 }
 
 footer {
+    color: #A9A9A9;
     p {
         font-family: "Montserrat", sans-serif;
         font-weight: 500;
@@ -50,5 +60,6 @@ footer {
     a {
         font-family: inherit;
         font-weight: 700;
+        color: #A9A9A9;
     }
 }
