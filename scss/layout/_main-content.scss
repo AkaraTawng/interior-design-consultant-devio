@@ -43,9 +43,12 @@
 
 
 .image-image-label-container {
-    img {
-        width: 30%;
+    width: 100%;
+    #room-image {
+        display: block;
+        width: 95%;
         height: 30%;
+        margin: 0 auto;
     }
 }
 
