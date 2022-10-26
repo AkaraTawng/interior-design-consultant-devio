@@ -1,6 +1,52 @@
+#header-p {
+    width: 63%;
+    margin-bottom: 1rem;
+    padding-left: 3%;
+}
+
+#nav-flex-container {
+ display: flex;
+ justify-content: space-between;
+ 
+ ul {
+    display: none;
+ }
+}
+
+#this-interior-supertitle {
+    margin-top: 15%;
+    margin-left: 11%;
+    width: fit-content;
+    white-space: nowrap;
+    padding: 8px 8px 8px 8px;
+    border: 1px solid white;
+    font-size: 0.7rem;
+}
+
+#read-more-flex-container {
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+    margin-bottom: 7%;
+
+    p {
+        align-self: center;
+        font-size: 0.7rem;
+        // padding-left: 0%;
+    }
+    
+    #read-more-arrow {
+        align-self: flex-start;
+    }
+}
+
+
+
 .image-image-label-container {
     img {
         width: 30%;
         height: 30%;
     }
 }
+
+
