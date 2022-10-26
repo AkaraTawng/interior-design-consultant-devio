@@ -170,7 +170,12 @@ footer a {
   align-self: flex-start;
 }
 
-.image-image-label-container img {
-  width: 30%;
+.image-image-label-container {
+  width: 100%;
+}
+.image-image-label-container #room-image {
+  display: block;
+  width: 95%;
   height: 30%;
+  margin: 0 auto;
 }/*# sourceMappingURL=main.css.map */
