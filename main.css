@@ -63,16 +63,37 @@ body a {
 #this-interior-supertitle {
   font-family: "Crimsonpro", serif;
   text-transform: uppercase;
+  display: inline-block;
+}
+
+#this-interior-supertitle-container {
+  border-top: 1px solid white;
+}
+
+#nav-flex-container #menu-icons-container {
+  align-self: flex-end;
+}
+#nav-flex-container #menu-icons-container #menu-open-icon {
+  font-size: 31px;
+}
+#nav-flex-container #menu-icons-container #menu-close-icon {
+  font-size: 31px;
 }
 
 #header-h1 {
   font-family: "Lora", sans-serif;
   font-weight: 500;
+  font-size: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 1.8rem;
+  padding-left: 4%;
 }
 
 #header-p {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
+  font-size: 0.7rem;
+  line-height: 115%;
 }
 
 #read-more-link {
@@ -107,6 +128,46 @@ footer a {
   font-family: inherit;
   font-weight: 700;
   color: #A9A9A9;
+}
+
+#header-p {
+  width: 63%;
+  margin-bottom: 1rem;
+  padding-left: 3%;
+}
+
+#nav-flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+#nav-flex-container ul {
+  display: none;
+}
+
+#this-interior-supertitle {
+  margin-top: 15%;
+  margin-left: 11%;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  white-space: nowrap;
+  padding: 8px 8px 8px 8px;
+  border: 1px solid white;
+  font-size: 0.7rem;
+}
+
+#read-more-flex-container {
+  display: flex;
+  width: 40%;
+  justify-content: space-around;
+  margin-bottom: 7%;
+}
+#read-more-flex-container p {
+  align-self: center;
+  font-size: 0.7rem;
+}
+#read-more-flex-container #read-more-arrow {
+  align-self: flex-start;
 }
 
 .image-image-label-container img {
