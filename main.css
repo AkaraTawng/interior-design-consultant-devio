@@ -126,10 +126,13 @@ body a {
 
 footer {
   color: #A9A9A9;
+  width: 100%;
+  text-align: center;
 }
 footer p {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
+  font-size: 0.6rem;
 }
 footer a {
   font-family: inherit;
@@ -219,4 +222,9 @@ footer a {
   flex-direction: column;
   width: 150%;
   margin-left: -19%;
+}
+
+footer {
+  position: absolute;
+  bottom: 1rem;
 }/*# sourceMappingURL=main.css.map */
