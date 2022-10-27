@@ -17,16 +17,45 @@ body {
 
 #this-interior-supertitle {
     font-family: "Crimsonpro", serif;
+    text-transform: uppercase;
+    display: inline-block;
 }
+
+#this-interior-supertitle-container {
+    border-top: 1px solid white;
+}
+
+#nav-flex-container {
+    #menu-icons-container {
+        align-self: flex-end;
+
+        #menu-open-icon {
+            // color: red;
+            font-size: 31px;
+        }
+
+        #menu-close-icon {
+            // color: red;
+            font-size: 31px;
+        }
+    }
+}
+
 
 #header-h1 {
     font-family: "Lora", sans-serif;
     font-weight: 500;
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1.8rem;
+    padding-left: 4%;
 }
 
 #header-p {
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
+    font-size: 0.7rem;
+    line-height: 115%;
 }
 
 #read-more-link {
@@ -38,16 +67,23 @@ body {
 #designer-name {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
+    font-size: .83  rem;
 }
 
 #designer-job-description {
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
+    color: #828282;
+    font-size: .7rem;
+    padding-top: 4%;
+
 }
 
 #designer-description {
     font-family: "Lora", sans-serif;
     font-weight: 700;
+    line-height: 140%;
+    width: 80%;
 }
 
 footer {

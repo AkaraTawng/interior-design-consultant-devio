@@ -17,6 +17,7 @@ time, mark, audio, video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+  box-sizing: border-box;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -62,16 +63,38 @@ body a {
 
 #this-interior-supertitle {
   font-family: "Crimsonpro", serif;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+#this-interior-supertitle-container {
+  border-top: 1px solid white;
+}
+
+#nav-flex-container #menu-icons-container {
+  align-self: flex-end;
+}
+#nav-flex-container #menu-icons-container #menu-open-icon {
+  font-size: 31px;
+}
+#nav-flex-container #menu-icons-container #menu-close-icon {
+  font-size: 31px;
 }
 
 #header-h1 {
   font-family: "Lora", sans-serif;
   font-weight: 500;
+  font-size: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 1.8rem;
+  padding-left: 4%;
 }
 
 #header-p {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
+  font-size: 0.7rem;
+  line-height: 115%;
 }
 
 #read-more-link {
@@ -83,16 +106,22 @@ body a {
 #designer-name {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
+  font-size: 0.83 rem;
 }
 
 #designer-job-description {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
+  color: #828282;
+  font-size: 0.7rem;
+  padding-top: 4%;
 }
 
 #designer-description {
   font-family: "Lora", sans-serif;
   font-weight: 700;
+  line-height: 140%;
+  width: 80%;
 }
 
 footer {
@@ -108,7 +137,86 @@ footer a {
   color: #A9A9A9;
 }
 
-.image-image-label-container img {
-  width: 30%;
+#header-p {
+  width: 63%;
+  margin-bottom: 1rem;
+  padding-left: 3%;
+}
+
+#nav-flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+#nav-flex-container ul {
+  display: none;
+}
+
+#this-interior-supertitle {
+  margin-top: 15%;
+  margin-left: 11%;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  white-space: nowrap;
+  padding: 8px 8px 8px 8px;
+  border: 1px solid white;
+  font-size: 0.7rem;
+}
+
+#read-more-flex-container {
+  display: flex;
+  width: 40%;
+  justify-content: space-around;
+  margin-bottom: 7%;
+}
+#read-more-flex-container p {
+  align-self: center;
+  font-size: 0.7rem;
+}
+#read-more-flex-container #read-more-arrow {
+  align-self: flex-start;
+}
+
+.image-image-label-container {
+  width: 100%;
+  position: relative;
+}
+.image-image-label-container #room-image {
+  display: block;
+  width: 95%;
   height: 30%;
+  margin: 0 auto;
+}
+
+.image-label-container {
+  background-color: #181719;
+  box-shadow: 0 2px 7px 1px black;
+  width: 83%;
+  margin-left: 12%;
+  position: absolute;
+  bottom: -38%;
+  padding: 5% 3% 6% 6%;
+}
+.image-label-container #face-image {
+  width: 40%;
+  height: 100%;
+  border-radius: 50%;
+  margin-top: -4%;
+}
+
+#headshot-title-container {
+  display: flex;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+#headshot-title-container #face-title-container {
+  margin-bottom: 5%;
+}
+
+#title-container {
+  display: flex;
+  flex-direction: column;
+  width: 150%;
+  margin-left: -19%;
 }/*# sourceMappingURL=main.css.map */
