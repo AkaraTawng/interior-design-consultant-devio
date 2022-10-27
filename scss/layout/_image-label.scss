@@ -1,0 +1,37 @@
+.image-label-container {
+    // background-color: purple;
+    background-color: #181719;
+    box-shadow: 0 2px 7px 1px black;
+    width: 83%;
+    margin-left: 12%;
+    position: absolute;
+    bottom: -38%;
+    padding: 5% 3% 6% 6%;
+    #face-image {
+        width: 40%;
+        height: 100%;
+        border-radius: 50%;
+        margin-top: -4%;
+        // padding: 0 0 5% 15%;
+    }
+}
+
+#headshot-title-container {
+    display: flex;
+    // background-color: green;
+    width: fit-content;
+
+    #face-title-container {
+        margin-bottom: 5%;
+    }
+}
+
+#title-container {
+    // background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    width: 150%;
+    // margin-right: 50%;
+    margin-left: -19%;
+}
+
