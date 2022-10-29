@@ -1,0 +1,25 @@
+
+#menu-icons-container {
+    .open {
+    display: inline-block;
+}
+}
+
+// .close {
+//     display: none;
+// }
+
+#menu-open-icon {
+    display: none;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+#menu-close-icon {
+    display: none;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
