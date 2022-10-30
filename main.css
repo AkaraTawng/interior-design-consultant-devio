@@ -241,6 +241,10 @@ footer {
   display: inline-block;
 }
 
+.nav-open {
+  display: flex !important;
+}
+
 /* both icons */
 .material-icons {
   display: none;
@@ -254,7 +258,7 @@ footer {
 }
 
 #nav-flex-container {
-  display: flex;
+  display: none;
   position: relative;
   justify-content: space-between;
   background-color: #181719;
