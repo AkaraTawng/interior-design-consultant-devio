@@ -246,14 +246,14 @@ footer {
 }
 
 /* both icons */
-.material-icons {
+.menu-icons {
   display: none;
   position: absolute;
   right: 5px;
   top: 16px;
   font-size: 30px;
 }
-.material-icons:hover {
+.menu-icons:hover {
   cursor: pointer;
 }
 
@@ -268,5 +268,5 @@ footer {
 #nav-flex-container ul {
   position: absolute;
   top: 10%;
-  left: 40%;
+  left: 37%;
 }/*# sourceMappingURL=main.css.map */

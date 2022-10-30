@@ -4,15 +4,6 @@
     padding-left: 3%;
 }
 
-// #nav-flex-container {
-//  display: flex;
-//  justify-content: space-between;
- 
-//  ul {
-//     display: none;
-//  }
-// }
-
 .this-interior-icon-container {
     display: flex;
     flex-direction: row;
@@ -38,15 +29,12 @@
     p {
         align-self: center;
         font-size: 0.7rem;
-        // padding-left: 0%;
     }
     
     #read-more-arrow {
         align-self: flex-start;
     }
 }
-
-
 
 .image-image-label-container {
     width: 100%;
