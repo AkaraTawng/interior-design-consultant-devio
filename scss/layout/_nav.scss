@@ -1,0 +1,36 @@
+
+#menu-icons-container {
+    .open {
+    display: inline-block;
+}
+}
+
+.nav-open {
+    display: flex !important;
+}
+
+/* both icons */
+.menu-icons {
+    display: none;
+    position: absolute;
+    right: 5px;
+    top: 16px;
+    font-size: 30px;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+#nav-flex-container {
+    display: none;
+    position: relative;
+    justify-content: space-between;
+    background-color: #181719;
+    height: 100vh;
+    z-index: 2;
+    ul {
+    position: absolute;
+    top: 10%;
+    left: 37%;
+   }
+}

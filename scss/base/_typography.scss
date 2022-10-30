@@ -30,17 +30,26 @@ body {
         align-self: flex-end;
 
         #menu-open-icon {
-            // color: red;
             font-size: 31px;
         }
 
         #menu-close-icon {
-            // color: red;
             font-size: 31px;
         }
     }
-}
 
+    ul {
+        text-align: center;
+
+        li {
+            line-height: 3rem;
+    
+            a {
+                text-decoration: none;
+            }
+        }
+    }
+}
 
 #header-h1 {
     font-family: "Lora", sans-serif;
@@ -76,7 +85,6 @@ body {
     color: #828282;
     font-size: .7rem;
     padding-top: 4%;
-
 }
 
 #designer-description {
@@ -88,9 +96,12 @@ body {
 
 footer {
     color: #A9A9A9;
+    width: 100%;
+    text-align: center;
     p {
         font-family: "Montserrat", sans-serif;
         font-weight: 500;
+        font-size: .6rem;
     }
     
     a {

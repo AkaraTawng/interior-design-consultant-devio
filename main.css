@@ -28,6 +28,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
   line-height: 1;
+  overflow: hidden;
 }
 
 ol, ul {
@@ -80,6 +81,15 @@ body a {
 #nav-flex-container #menu-icons-container #menu-close-icon {
   font-size: 31px;
 }
+#nav-flex-container ul {
+  text-align: center;
+}
+#nav-flex-container ul li {
+  line-height: 3rem;
+}
+#nav-flex-container ul li a {
+  text-decoration: none;
+}
 
 #header-h1 {
   font-family: "Lora", sans-serif;
@@ -126,10 +136,13 @@ body a {
 
 footer {
   color: #A9A9A9;
+  width: 100%;
+  text-align: center;
 }
 footer p {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
+  font-size: 0.6rem;
 }
 footer a {
   font-family: inherit;
@@ -143,17 +156,14 @@ footer a {
   padding-left: 3%;
 }
 
-#nav-flex-container {
+.this-interior-icon-container {
   display: flex;
-  justify-content: space-between;
-}
-#nav-flex-container ul {
-  display: none;
+  flex-direction: row;
 }
 
 #this-interior-supertitle {
-  margin-top: 15%;
-  margin-left: 11%;
+  margin-top: 5%;
+  margin-left: 4%;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -161,6 +171,7 @@ footer a {
   padding: 8px 8px 8px 8px;
   border: 1px solid white;
   font-size: 0.7rem;
+  display: inline-block;
 }
 
 #read-more-flex-container {
@@ -219,4 +230,43 @@ footer a {
   flex-direction: column;
   width: 150%;
   margin-left: -19%;
+}
+
+footer {
+  position: absolute;
+  bottom: 1rem;
+}
+
+#menu-icons-container .open {
+  display: inline-block;
+}
+
+.nav-open {
+  display: flex !important;
+}
+
+/* both icons */
+.menu-icons {
+  display: none;
+  position: absolute;
+  right: 5px;
+  top: 16px;
+  font-size: 30px;
+}
+.menu-icons:hover {
+  cursor: pointer;
+}
+
+#nav-flex-container {
+  display: none;
+  position: relative;
+  justify-content: space-between;
+  background-color: #181719;
+  height: 100vh;
+  z-index: 2;
+}
+#nav-flex-container ul {
+  position: absolute;
+  top: 10%;
+  left: 37%;
 }/*# sourceMappingURL=main.css.map */
