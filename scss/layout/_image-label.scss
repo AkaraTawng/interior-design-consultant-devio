@@ -1,5 +1,4 @@
 .image-label-container {
-    // background-color: purple;
     background-color: #181719;
     box-shadow: 0 2px 7px 1px black;
     width: 83%;
@@ -12,13 +11,11 @@
         height: 100%;
         border-radius: 50%;
         margin-top: -4%;
-        // padding: 0 0 5% 15%;
     }
 }
 
 #headshot-title-container {
     display: flex;
-    // background-color: green;
     width: fit-content;
 
     #face-title-container {
@@ -27,11 +24,9 @@
 }
 
 #title-container {
-    // background-color: yellow;
     display: flex;
     flex-direction: column;
     width: 150%;
-    // margin-right: 50%;
     margin-left: -19%;
 }
 
