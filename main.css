@@ -28,6 +28,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
   line-height: 1;
+  overflow: hidden;
 }
 
 ol, ul {
@@ -79,6 +80,15 @@ body a {
 }
 #nav-flex-container #menu-icons-container #menu-close-icon {
   font-size: 31px;
+}
+#nav-flex-container ul {
+  text-align: center;
+}
+#nav-flex-container ul li {
+  line-height: 3rem;
+}
+#nav-flex-container ul li a {
+  text-decoration: none;
 }
 
 #header-h1 {
@@ -253,12 +263,6 @@ footer {
 }
 #nav-flex-container ul {
   position: absolute;
-  top: 0%;
-  left: 35%;
-}
-#nav-flex-container ul li {
-  line-height: 3rem;
-}
-#nav-flex-container ul li a {
-  text-decoration: none;
+  top: 10%;
+  left: 40%;
 }/*# sourceMappingURL=main.css.map */
