@@ -9,12 +9,8 @@
     display: flex !important;
 }
 
-// .close {
-//     display: none;
-// }
-
 /* both icons */
-.material-icons {
+.menu-icons {
     display: none;
     position: absolute;
     right: 5px;
@@ -24,22 +20,6 @@
         cursor: pointer;
     }
 }
-// #menu-open-icon {
-//     display: none;
-//     position: absolute;
-//     right: 10px;
-//     top: 10px;
-//     &:hover {
-//         cursor: pointer;
-//     }
-// }
-
-// #menu-close-icon {
-//     display: none;
-//     &:hover {
-//         cursor: pointer;
-//     }
-// }
 
 #nav-flex-container {
     display: none;
@@ -48,18 +28,9 @@
     background-color: #181719;
     height: 100vh;
     z-index: 2;
-
-    
-    
     ul {
     position: absolute;
     top: 10%;
-    left: 40%;
-    li {
-
-        a {
-
-        }
-    }
-    }
+    left: 37%;
    }
+}
