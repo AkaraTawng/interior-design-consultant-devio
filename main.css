@@ -301,13 +301,13 @@ footer {
   transform: translateY(-200%);
 }
 #nav-flex-container ul li:nth-child(2) {
-  transform: translateY(-200%);
+  transform: translateY(-300%);
 }
 #nav-flex-container ul li:nth-child(3) {
-  transform: translateY(-200%);
+  transform: translateY(-400%);
 }
 #nav-flex-container ul li:nth-child(4) {
-  transform: translateY(-200%);
+  transform: translateY(-500%);
 }
 #nav-flex-container ul #nav1 {
   color: blue;
