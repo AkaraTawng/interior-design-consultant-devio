@@ -89,6 +89,12 @@ body a {
 }
 #nav-flex-container ul li a {
   text-decoration: none;
+  padding-bottom: 3%;
+}
+#nav-flex-container ul li a:hover {
+  font-weight: 600;
+  border-bottom: 2.3px solid white;
+  transition: all 0.1s ease-in;
 }
 
 #header-h1 {
@@ -243,6 +249,16 @@ footer {
 
 .nav-open {
   display: flex !important;
+  height: 100vh !important;
+  opacity: 1 !important;
+}
+
+.nav-ul-open {
+  opacity: 1 !important;
+}
+
+.nav-li-open {
+  transform: translateY(0) !important;
 }
 
 /* both icons */
@@ -258,15 +274,50 @@ footer {
 }
 
 #nav-flex-container {
-  display: none;
   position: relative;
   justify-content: space-between;
   background-color: #181719;
-  height: 100vh;
+  height: 0;
   z-index: 2;
+  transition: height 0.5s ease-in-out;
+  opacity: 1;
 }
 #nav-flex-container ul {
   position: absolute;
+  transition: opacity 0.5s ease;
+  opacity: 0;
   top: 10%;
-  left: 37%;
+  left: 26%;
+  width: 50%;
+  /* home */
+  /* collection */
+  /* about */
+  /* about */
+}
+#nav-flex-container ul li {
+  transition: all 0.5s linear;
+}
+#nav-flex-container ul li:nth-child(1) {
+  transform: translateY(-200%);
+}
+#nav-flex-container ul li:nth-child(2) {
+  transform: translateY(-300%);
+}
+#nav-flex-container ul li:nth-child(3) {
+  transform: translateY(-400%);
+}
+#nav-flex-container ul li:nth-child(4) {
+  transform: translateY(-500%);
+}
+#nav-flex-container ul #nav1 {
+  color: blue;
+}
+#nav-flex-container ul #nav2 {
+  color: pink;
+}
+#nav-flex-container ul #nav3 {
+  color: mediumseagreen;
+}
+#nav-flex-container ul #nav4 {
+  color: orange;
 }/*# sourceMappingURL=main.css.map */
