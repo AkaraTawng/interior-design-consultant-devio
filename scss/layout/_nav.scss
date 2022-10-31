@@ -7,6 +7,16 @@
 
 .nav-open {
     display: flex !important;
+    height: 100vh !important;
+    opacity: 1 !important;
+}
+
+.nav-ul-open {
+    opacity: 1 !important;
+}
+
+.nav-li-open{
+    transform: translateY(0) !important;
 }
 
 /* both icons */
@@ -22,15 +32,57 @@
 }
 
 #nav-flex-container {
-    display: none;
     position: relative;
     justify-content: space-between;
     background-color: #181719;
-    height: 100vh;
+    height: 0;
     z-index: 2;
-    ul {
-    position: absolute;
-    top: 10%;
-    left: 37%;
-   }
+    transition: height .5s ease-in-out;
+    opacity: 1;
+        ul {
+        position: absolute;
+        transition: opacity .5s ease;
+        opacity: 0;
+        top: 10%;
+        left: 26%;
+        width: 50%;
+
+        li {
+            transition: all .5s linear;
+        }
+        /* home */
+        li:nth-child(1) {
+            transform: translateY(-200%);
+        }
+        
+        /* collection */
+        li:nth-child(2) {
+            transform: translateY(-200%);
+        }
+        
+        /* about */
+        li:nth-child(3) {
+            transform: translateY(-200%);
+        }
+        
+        /* about */
+        li:nth-child(4) {
+            transform: translateY(-200%);
+        }
+            
+        #nav1 {
+            color: blue;
+        }
+        
+        #nav2 {
+            color: pink;
+        }
+        #nav3 {
+            color: mediumseagreen;
+        }
+        #nav4 {
+            color: orange;
+        }
+
+        }
 }
