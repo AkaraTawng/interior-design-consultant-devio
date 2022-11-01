@@ -261,6 +261,11 @@ footer {
   transform: translateY(0) !important;
 }
 
+.nav-item-active {
+  font-weight: 600 !important;
+  border-bottom: 2.3px solid white !important;
+}
+
 /* both icons */
 .menu-icons {
   display: none;
@@ -308,16 +313,4 @@ footer {
 }
 #nav-flex-container ul li:nth-child(4) {
   transform: translateY(-500%);
-}
-#nav-flex-container ul #nav1 {
-  color: blue;
-}
-#nav-flex-container ul #nav2 {
-  color: pink;
-}
-#nav-flex-container ul #nav3 {
-  color: mediumseagreen;
-}
-#nav-flex-container ul #nav4 {
-  color: orange;
 }/*# sourceMappingURL=main.css.map */
