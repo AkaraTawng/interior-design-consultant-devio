@@ -240,7 +240,8 @@ footer a {
 
 footer {
   position: absolute;
-  bottom: 1rem;
+  position: absolute;
+  bottom: 2%;
 }
 
 #menu-icons-container .open {
@@ -291,7 +292,7 @@ footer {
   position: absolute;
   transition: opacity 0.5s ease;
   opacity: 0;
-  top: 10%;
+  top: 25%;
   left: 26%;
   width: 50%;
   /* home */
