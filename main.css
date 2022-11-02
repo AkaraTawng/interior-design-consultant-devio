@@ -156,6 +156,7 @@ footer a {
   color: #A9A9A9;
 }
 
+/* Breakpoints */
 #header-p {
   width: 63%;
   margin-bottom: 1rem;
@@ -186,12 +187,23 @@ footer a {
   justify-content: space-around;
   margin-bottom: 7%;
 }
+@media (min-width: 400px) {
+  #read-more-flex-container {
+    width: 25%;
+    margin-left: 3%;
+  }
+}
 #read-more-flex-container p {
   align-self: center;
   font-size: 0.7rem;
 }
 #read-more-flex-container #read-more-arrow {
   align-self: flex-start;
+}
+@media (min-width: 400px) {
+  #read-more-flex-container #read-more-link {
+    white-space: nowrap;
+  }
 }
 
 .image-image-label-container {
