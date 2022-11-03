@@ -2,11 +2,11 @@
 
 #header-p {
     width: 63%;
-    margin-bottom: 1rem;
+    margin-bottom: 4%;
     padding-left: 3%;
     @include tablet{
         padding-left: 2%;
-        width:  25%;
+        width:  40%;
     }
 }
 
@@ -37,7 +37,12 @@
     }
     @include mobile-l{
         width: 15%;
-        margin-left: 1%;
+        margin-left: 5%;
+        margin-bottom: 6%;
+    }
+    @include tablet{
+        width: 19%;
+        margin-left: 1.5%;
     }
 
     p {
