@@ -88,6 +88,11 @@ body a {
 #nav-flex-container ul li {
   line-height: 3rem;
 }
+@media (min-width: 768px) {
+  #nav-flex-container ul li {
+    line-height: 4.5rem;
+  }
+}
 #nav-flex-container ul li a {
   text-decoration: none;
   padding-bottom: 3%;
@@ -96,6 +101,11 @@ body a {
   font-weight: 600;
   border-bottom: 2.3px solid white;
   transition: all 0.1s ease-in;
+}
+@media (min-width: 768px) {
+  #nav-flex-container ul li a {
+    font-size: 1.5rem;
+  }
 }
 
 #header-h1 {
