@@ -9,6 +9,9 @@
     @include mobile-m {
         bottom: -33%;
     }
+    @include mobile-l{
+        bottom: -20%;
+    }
     
     #face-image {
         width: 40%;

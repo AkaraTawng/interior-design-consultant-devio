@@ -231,6 +231,11 @@ footer a {
     bottom: -33%;
   }
 }
+@media (min-width: 480px) {
+  .image-label-container {
+    bottom: -20%;
+  }
+}
 .image-label-container #face-image {
   width: 40%;
   height: 100%;
