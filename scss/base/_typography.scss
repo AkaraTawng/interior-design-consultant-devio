@@ -75,12 +75,18 @@ body {
     font-weight: 400;
     font-size: 0.7rem;
     line-height: 115%;
+    @include tablet{
+        font-size: 1rem;
+    }
 }
 
 #read-more-link {
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
     text-decoration: none;
+    @include tablet{
+        font-size: 1rem;
+    }
 }
 
 #designer-name {
