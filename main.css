@@ -205,6 +205,12 @@ footer a {
     margin-left: 3%;
   }
 }
+@media (min-width: 480px) {
+  #read-more-flex-container {
+    width: 15%;
+    margin-left: 1%;
+  }
+}
 #read-more-flex-container p {
   align-self: center;
   font-size: 0.7rem;

@@ -35,6 +35,10 @@
         width: 25%;
         margin-left: 3%;
     }
+    @include mobile-l{
+        width: 15%;
+        margin-left: 1%;
+    }
 
     p {
         align-self: center;
@@ -50,8 +54,6 @@
         white-space: nowrap;
         }
     }
-
-    
 }
 
 .image-image-label-container {
