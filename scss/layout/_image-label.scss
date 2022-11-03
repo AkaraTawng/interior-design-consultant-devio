@@ -12,6 +12,11 @@
     @include mobile-l{
         bottom: -20%;
     }
+    @include tablet{
+        width: 60%;
+        margin-left: 33%;
+        bottom: -11%;
+    }
     
     #face-image {
         width: 40%;
