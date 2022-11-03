@@ -156,6 +156,7 @@ footer a {
   color: #A9A9A9;
 }
 
+/* Breakpoints */
 #header-p {
   width: 63%;
   margin-bottom: 1rem;
@@ -186,12 +187,23 @@ footer a {
   justify-content: space-around;
   margin-bottom: 7%;
 }
+@media (min-width: 400px) {
+  #read-more-flex-container {
+    width: 25%;
+    margin-left: 3%;
+  }
+}
 #read-more-flex-container p {
   align-self: center;
   font-size: 0.7rem;
 }
 #read-more-flex-container #read-more-arrow {
   align-self: flex-start;
+}
+@media (min-width: 400px) {
+  #read-more-flex-container #read-more-link {
+    white-space: nowrap;
+  }
 }
 
 .image-image-label-container {
@@ -213,6 +225,11 @@ footer a {
   position: absolute;
   bottom: -38%;
   padding: 5% 3% 6% 6%;
+}
+@media (min-width: 400px) {
+  .image-label-container {
+    bottom: -33%;
+  }
 }
 .image-label-container #face-image {
   width: 40%;
@@ -240,7 +257,8 @@ footer a {
 
 footer {
   position: absolute;
-  bottom: 1rem;
+  position: absolute;
+  bottom: 2%;
 }
 
 #menu-icons-container .open {
@@ -259,6 +277,11 @@ footer {
 
 .nav-li-open {
   transform: translateY(0) !important;
+}
+
+.nav-item-active {
+  font-weight: 600 !important;
+  border-bottom: 2.3px solid white !important;
 }
 
 /* both icons */
@@ -286,7 +309,7 @@ footer {
   position: absolute;
   transition: opacity 0.5s ease;
   opacity: 0;
-  top: 10%;
+  top: 25%;
   left: 26%;
   width: 50%;
   /* home */
@@ -309,15 +332,5 @@ footer {
 #nav-flex-container ul li:nth-child(4) {
   transform: translateY(-500%);
 }
-#nav-flex-container ul #nav1 {
-  color: blue;
-}
-#nav-flex-container ul #nav2 {
-  color: pink;
-}
-#nav-flex-container ul #nav3 {
-  color: mediumseagreen;
-}
-#nav-flex-container ul #nav4 {
-  color: orange;
-}/*# sourceMappingURL=main.css.map */
+
+/* Breakpoints *//*# sourceMappingURL=main.css.map */

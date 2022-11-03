@@ -6,6 +6,10 @@
     position: absolute;
     bottom: -38%;
     padding: 5% 3% 6% 6%;
+    @include mobile-m {
+        bottom: -33%;
+    }
+    
     #face-image {
         width: 40%;
         height: 100%;

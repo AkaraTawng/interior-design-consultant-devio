@@ -15,8 +15,13 @@
     opacity: 1 !important;
 }
 
-.nav-li-open{
+.nav-li-open {
     transform: translateY(0) !important;
+}
+
+.nav-item-active {
+    font-weight: 600 !important;
+    border-bottom: 2.3px solid white !important;
 }
 
 /* both icons */
@@ -43,13 +48,14 @@
         position: absolute;
         transition: opacity .5s ease;
         opacity: 0;
-        top: 10%;
+        top: 25%;
         left: 26%;
         width: 50%;
 
         li {
             transition: all .5s linear;
         }
+
         /* home */
         li:nth-child(1) {
             transform: translateY(-200%);
@@ -69,20 +75,5 @@
         li:nth-child(4) {
             transform: translateY(-500%);
         }
-            
-        #nav1 {
-            color: blue;
-        }
-        
-        #nav2 {
-            color: pink;
-        }
-        #nav3 {
-            color: mediumseagreen;
-        }
-        #nav4 {
-            color: orange;
-        }
-
-        }
+    }
 }
