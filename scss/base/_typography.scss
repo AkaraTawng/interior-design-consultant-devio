@@ -1,4 +1,5 @@
 @import '../variables/fonts';
+@import '../variables/media-queries';
 
 body {
     font-family: "montserrat", sans-serif;
@@ -64,6 +65,9 @@ body {
     margin-top: 2rem;
     margin-bottom: 1.8rem;
     padding-left: 4%;
+    @include tablet{
+        padding-left: 2%;
+    }
 }
 
 #header-p {

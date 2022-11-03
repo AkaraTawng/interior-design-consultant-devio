@@ -50,6 +50,7 @@ table {
   border-spacing: 0;
 }
 
+/* Breakpoints */
 body {
   font-family: "montserrat", sans-serif;
   color: white;
@@ -104,6 +105,11 @@ body a {
   margin-top: 2rem;
   margin-bottom: 1.8rem;
   padding-left: 4%;
+}
+@media (min-width: 768px) {
+  #header-h1 {
+    padding-left: 2%;
+  }
 }
 
 #header-p {
