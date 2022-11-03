@@ -222,6 +222,12 @@ footer a {
   }
 }
 
+@media (min-width: 1280px) {
+  #main-content-flex-container {
+    display: flex;
+  }
+}
+
 #read-more-flex-container {
   display: flex;
   width: 40%;

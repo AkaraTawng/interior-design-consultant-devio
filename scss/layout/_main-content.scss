@@ -33,6 +33,12 @@
     }
 }
 
+#main-content-flex-container{
+    @include laptop{
+        display: flex;
+    }
+}
+
 #read-more-flex-container {
     display: flex;
     width: 40%;
