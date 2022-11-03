@@ -34,6 +34,9 @@
     &:hover {
         cursor: pointer;
     }
+    @include tablet{
+        font-size: 40px;
+    }
 }
 
 #nav-flex-container {

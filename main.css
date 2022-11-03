@@ -351,6 +351,11 @@ footer {
 .menu-icons:hover {
   cursor: pointer;
 }
+@media (min-width: 768px) {
+  .menu-icons {
+    font-size: 40px;
+  }
+}
 
 #nav-flex-container {
   position: relative;
