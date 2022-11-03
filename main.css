@@ -224,7 +224,17 @@ footer a {
 
 @media (min-width: 1280px) {
   #main-content-flex-container {
+    height: 50vh;
     display: flex;
+    justify-content: space-around;
+  }
+  #main-content-flex-container header {
+    align-self: center;
+    padding-left: 4%;
+  }
+  #main-content-flex-container main {
+    padding-right: 4%;
+    align-self: center;
   }
 }
 
