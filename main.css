@@ -168,6 +168,12 @@ footer a {
   margin-bottom: 1rem;
   padding-left: 3%;
 }
+@media (min-width: 768px) {
+  #header-p {
+    padding-left: 2%;
+    width: 25%;
+  }
+}
 
 .this-interior-icon-container {
   display: flex;

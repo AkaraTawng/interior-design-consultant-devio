@@ -4,6 +4,10 @@
     width: 63%;
     margin-bottom: 1rem;
     padding-left: 3%;
+    @include tablet{
+        padding-left: 2%;
+        width:  25%;
+    }
 }
 
 .this-interior-icon-container {
