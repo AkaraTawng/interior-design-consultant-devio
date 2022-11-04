@@ -35,6 +35,9 @@
         margin-bottom: 2%;
         margin-top: 3%;
     }
+    @include laptop{
+        margin-left: 5%;
+    }
 }
 
 #main-content-flex-container{

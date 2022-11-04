@@ -248,6 +248,11 @@ footer a {
     margin-top: 3%;
   }
 }
+@media (min-width: 1280px) {
+  #this-interior-supertitle {
+    margin-left: 5%;
+  }
+}
 
 @media (min-width: 1280px) {
   #main-content-flex-container {
