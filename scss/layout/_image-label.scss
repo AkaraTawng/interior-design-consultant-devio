@@ -17,6 +17,12 @@
         margin-left: 33%;
         bottom: -11%;
     }
+    @include laptop{
+        width: 53%;
+        margin-left: 40%;
+        bottom: -20.5%;
+        padding: 3% 3% 4% 4%;
+    }
     
     #face-image {
         width: 40%;
