@@ -10,6 +10,7 @@
     }
     @include laptop{
         width: 75%;
+        margin-bottom: 7%;
     }
 }
 
@@ -90,7 +91,6 @@
         }
     }
     
-
     @include mobile-m {
         #read-more-link {
         white-space: nowrap;
@@ -107,7 +107,8 @@
         height: 30%;
         margin: 0 auto;
         @include laptop{
-            width: 105%;
+            width: 120%;
+            padding-right: 22%;
         }
     }
 }

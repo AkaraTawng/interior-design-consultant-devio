@@ -121,6 +121,12 @@ body a {
     padding-left: 2%;
   }
 }
+@media (min-width: 1280px) {
+  #header-h1 {
+    font-size: 2.8rem;
+    margin-bottom: 8%;
+  }
+}
 
 #header-p {
   font-family: "Montserrat", sans-serif;
@@ -133,6 +139,11 @@ body a {
     font-size: 1rem;
   }
 }
+@media (min-width: 1280px) {
+  #header-p {
+    font-size: 1.4rem;
+  }
+}
 
 #read-more-link {
   font-family: "Montserrat", sans-serif;
@@ -142,6 +153,11 @@ body a {
 @media (min-width: 768px) {
   #read-more-link {
     font-size: 1rem;
+  }
+}
+@media (min-width: 1280px) {
+  #read-more-link {
+    font-size: 1.2rem;
   }
 }
 
@@ -164,6 +180,11 @@ body a {
   font-weight: 700;
   line-height: 140%;
   width: 80%;
+}
+@media (min-width: 1280px) {
+  #designer-description {
+    font-size: 1.3rem;
+  }
 }
 
 footer {
@@ -192,6 +213,12 @@ footer a {
   #header-p {
     padding-left: 2%;
     width: 40%;
+  }
+}
+@media (min-width: 1280px) {
+  #header-p {
+    width: 75%;
+    margin-bottom: 7%;
   }
 }
 
@@ -263,12 +290,23 @@ footer a {
     margin-left: 1.5%;
   }
 }
+@media (min-width: 1280px) {
+  #read-more-flex-container {
+    width: 30%;
+    margin-left: 0.5%;
+  }
+}
 #read-more-flex-container p {
   align-self: center;
   font-size: 0.7rem;
 }
 #read-more-flex-container #read-more-arrow {
   align-self: flex-start;
+}
+@media (min-width: 1280px) {
+  #read-more-flex-container #read-more-arrow {
+    margin-top: 3%;
+  }
 }
 @media (min-width: 400px) {
   #read-more-flex-container #read-more-link {
@@ -285,6 +323,12 @@ footer a {
   width: 95%;
   height: 30%;
   margin: 0 auto;
+}
+@media (min-width: 1280px) {
+  .image-image-label-container #room-image {
+    width: 120%;
+    padding-right: 22%;
+  }
 }
 
 .image-label-container {
@@ -311,6 +355,14 @@ footer a {
     width: 60%;
     margin-left: 33%;
     bottom: -11%;
+  }
+}
+@media (min-width: 1280px) {
+  .image-label-container {
+    width: 53%;
+    margin-left: 40%;
+    bottom: -20.5%;
+    padding: 3% 3% 4% 4%;
   }
 }
 .image-label-container #face-image {
