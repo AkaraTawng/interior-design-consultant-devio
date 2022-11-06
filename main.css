@@ -635,5 +635,11 @@ footer {
     margin-top: 2.5%;
   }
 }
+@media (min-width: 1920px) {
+  #this-interior-supertitle-large-screen {
+    padding: 15px 15px 15px 15px;
+    margin-left: 4.5%;
+  }
+}
 
 /* Breakpoints *//*# sourceMappingURL=main.css.map */

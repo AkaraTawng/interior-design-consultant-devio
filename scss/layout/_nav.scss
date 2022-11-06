@@ -116,4 +116,8 @@
     @include desktop-md {
         margin-top: 2.5%;
     }
+    @include desktop-lg{
+        padding: 15px 15px 15px 15px;
+        margin-left: 4.5%;
+    }
 }
