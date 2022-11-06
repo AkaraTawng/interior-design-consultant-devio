@@ -15,6 +15,9 @@
     @include desktop-md{
         width: 72%;
     }
+    @include desktop-lg{
+        width: 65%;
+    }
 }
 
 .this-interior-icon-container {
@@ -87,6 +90,10 @@
     @include desktop-md{
         width: 30%;
         margin-left: 2%;
+    }
+    @include desktop-lg{
+        width: 28%;
+        margin-left: 1%;
     }
 
     p {

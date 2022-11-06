@@ -82,6 +82,9 @@ body {
     @include desktop-md{
         font-size: 3.3rem;
     }
+    @include desktop-lg{
+        font-size: 3.7rem;
+    }
 }
 
 #header-p {
@@ -98,6 +101,9 @@ body {
     @include desktop-md{
         font-size: 1.6rem;
     }
+    @include desktop-lg{
+        font-size: 1.9rem;
+    }
 }
 
 #read-more-link {
@@ -112,6 +118,9 @@ body {
     }
     @include desktop-md{
         font-size: 1.3rem;
+    }
+    @include desktop-lg{
+        font-size: 1.4rem;
     }
 }
 

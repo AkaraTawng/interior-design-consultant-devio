@@ -132,6 +132,11 @@ body a {
     font-size: 3.3rem;
   }
 }
+@media (min-width: 1920px) {
+  #header-h1 {
+    font-size: 3.7rem;
+  }
+}
 
 #header-p {
   font-family: "Montserrat", sans-serif;
@@ -154,6 +159,11 @@ body a {
     font-size: 1.6rem;
   }
 }
+@media (min-width: 1920px) {
+  #header-p {
+    font-size: 1.9rem;
+  }
+}
 
 #read-more-link {
   font-family: "Montserrat", sans-serif;
@@ -173,6 +183,11 @@ body a {
 @media (min-width: 1530px) {
   #read-more-link {
     font-size: 1.3rem;
+  }
+}
+@media (min-width: 1920px) {
+  #read-more-link {
+    font-size: 1.4rem;
   }
 }
 
@@ -255,6 +270,11 @@ footer a {
 @media (min-width: 1530px) {
   #header-p {
     width: 72%;
+  }
+}
+@media (min-width: 1920px) {
+  #header-p {
+    width: 65%;
   }
 }
 
@@ -342,6 +362,12 @@ footer a {
   #read-more-flex-container {
     width: 30%;
     margin-left: 2%;
+  }
+}
+@media (min-width: 1920px) {
+  #read-more-flex-container {
+    width: 28%;
+    margin-left: 1%;
   }
 }
 #read-more-flex-container p {
