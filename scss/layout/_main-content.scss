@@ -12,6 +12,9 @@
         width: 75%;
         margin-bottom: 7%;
     }
+    @include desktop-md{
+        width: 60%;
+    }
 }
 
 .this-interior-icon-container {
@@ -80,6 +83,10 @@
     @include laptop{
         width: 30%;
         margin-left: .5%;
+    }
+    @include desktop-md{
+        width: 25%;
+        margin-left: .7%;
     }
 
     p {
