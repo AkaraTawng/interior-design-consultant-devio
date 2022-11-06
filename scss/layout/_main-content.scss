@@ -13,7 +13,7 @@
         margin-bottom: 7%;
     }
     @include desktop-md{
-        width: 60%;
+        width: 72%;
     }
 }
 
@@ -120,6 +120,12 @@
         @include laptop{
             width: 120%;
             padding-right: 22%;
+        }
+        @include desktop-md{
+            height: 40rem;
+            width: 50rem;
+            padding-right: 0;
+            margin-right: 2rem;
         }
     }
 }

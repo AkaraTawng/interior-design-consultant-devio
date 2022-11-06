@@ -129,7 +129,7 @@ body a {
 }
 @media (min-width: 1530px) {
   #header-h1 {
-    font-size: 3.4frem;
+    font-size: 3.3rem;
   }
 }
 
@@ -238,7 +238,7 @@ footer a {
 }
 @media (min-width: 1530px) {
   #header-p {
-    width: 60%;
+    width: 72%;
   }
 }
 
@@ -360,6 +360,14 @@ footer a {
   .image-image-label-container #room-image {
     width: 120%;
     padding-right: 22%;
+  }
+}
+@media (min-width: 1530px) {
+  .image-image-label-container #room-image {
+    height: 40rem;
+    width: 50rem;
+    padding-right: 0;
+    margin-right: 2rem;
   }
 }
 
@@ -525,6 +533,11 @@ footer {
     margin-left: 23%;
   }
 }
+@media (min-width: 1530px) {
+  #nav-flex-container ul {
+    margin-top: 1%;
+  }
+}
 
 #this-interior-supertitle-large-screen {
   display: none;
@@ -541,6 +554,11 @@ footer {
     font-size: 1rem;
     display: inline-block;
     align-self: center;
+  }
+}
+@media (min-width: 1530px) {
+  #this-interior-supertitle-large-screen {
+    margin-top: 2.5%;
   }
 }
 
