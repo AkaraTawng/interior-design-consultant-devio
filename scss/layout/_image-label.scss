@@ -23,6 +23,9 @@
         bottom: -20.5%;
         padding: 3% 3% 4% 4%;
     }
+    @include desktop-md{
+        bottom: -13%;
+    }
     
     #face-image {
         width: 40%;

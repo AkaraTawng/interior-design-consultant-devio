@@ -405,6 +405,11 @@ footer a {
     padding: 3% 3% 4% 4%;
   }
 }
+@media (min-width: 1530px) {
+  .image-label-container {
+    bottom: -13%;
+  }
+}
 .image-label-container #face-image {
   width: 40%;
   height: 100%;
