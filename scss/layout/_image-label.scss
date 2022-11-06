@@ -37,7 +37,11 @@
         height: 100%;
         border-radius: 50%;
         margin-top: -4%;
-
+        @include desktop-lg{
+            width: 55%;
+            height: 105%;
+            margin-top: -8%;
+        }
     }
 }
 
@@ -56,7 +60,7 @@
     width: 150%;
     margin-left: -19%;
     @include desktop-lg{
-        margin-left: -13%;
+        margin-left: -8%;
     }
 }
 

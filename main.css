@@ -470,6 +470,13 @@ footer a {
   border-radius: 50%;
   margin-top: -4%;
 }
+@media (min-width: 1920px) {
+  .image-label-container #face-image {
+    width: 55%;
+    height: 105%;
+    margin-top: -8%;
+  }
+}
 
 #headshot-title-container {
   display: flex;
@@ -489,7 +496,7 @@ footer a {
 }
 @media (min-width: 1920px) {
   #title-container {
-    margin-left: -13%;
+    margin-left: -8%;
   }
 }
 
