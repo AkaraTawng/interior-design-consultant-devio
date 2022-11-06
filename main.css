@@ -324,8 +324,8 @@ footer a {
 }
 @media (min-width: 1530px) {
   #read-more-flex-container {
-    width: 25%;
-    margin-left: 0.7%;
+    width: 30%;
+    margin-left: 2%;
   }
 }
 #read-more-flex-container p {
