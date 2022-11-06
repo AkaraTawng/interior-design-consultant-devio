@@ -73,6 +73,9 @@ body a {
   border-top: 1px solid white;
 }
 
+#nav-flex-container #this-interior-supertitle-large-screen {
+  font-size: 1.4rem;
+}
 #nav-flex-container #menu-icons-container {
   align-self: flex-end;
 }
