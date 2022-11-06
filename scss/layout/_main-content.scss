@@ -127,6 +127,9 @@
             padding-right: 0;
             margin-right: 2rem;
         }
+        @include desktop-lg{
+            width: 60rem;
+        }
     }
 }
 
