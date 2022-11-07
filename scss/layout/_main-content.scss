@@ -1,5 +1,6 @@
 @import "../variables/media-queries";
 
+
 #header-p {
     width: 63%;
     margin-bottom: 4%;
@@ -156,6 +157,15 @@
         }
     }
 }
+
+.animate__animated.animate__jello {
+    --animate-duration: 1s;
+  }
+
+  .animate__animated.animate__slideInDown {
+    --animate-duration: .7s;
+  }
+
 
 .image-image-label-container {
     width: 100%;

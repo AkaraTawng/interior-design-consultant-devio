@@ -428,6 +428,14 @@ footer a {
   }
 }
 
+.animate__animated.animate__jello {
+  --animate-duration: 1s;
+}
+
+.animate__animated.animate__slideInDown {
+  --animate-duration: .7s;
+}
+
 .image-image-label-container {
   width: 100%;
   position: relative;
