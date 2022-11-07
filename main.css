@@ -627,6 +627,12 @@ footer {
 #this-interior-supertitle-large-screen {
   display: none;
 }
+#this-interior-supertitle-large-screen a {
+  text-decoration: none;
+}
+#this-interior-supertitle-large-screen a:visited {
+  color: white;
+}
 @media (min-width: 1280px) {
   #this-interior-supertitle-large-screen {
     margin-left: 4%;
