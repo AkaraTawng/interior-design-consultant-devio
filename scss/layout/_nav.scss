@@ -37,6 +37,9 @@
     @include tablet{
         font-size: 40px;
     }
+    @include laptop{
+        display: none !important;
+    }
 }
 
 #nav-flex-container {
@@ -47,6 +50,11 @@
     z-index: 2;
     transition: height .5s ease-in-out;
     opacity: 1;
+    @include laptop{
+        display: flex;
+        // background-color: orange;
+        height: 7rem;
+    }
         ul {
         position: absolute;
         transition: opacity .5s ease;
@@ -78,5 +86,44 @@
         li:nth-child(4) {
             transform: translateY(-500%);
         }
+        @include laptop{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            opacity: 1;
+            height: 0;
+            margin-top: -1%;
+            margin-left: 23%;
+        }
+        @include desktop-md {
+            margin-top: 1%;
+        }
+    }
+}
+
+#this-interior-supertitle-large-screen{
+    display: none;
+        a {
+            text-decoration: none;
+            &:visited {
+                color: white;
+            }
+        }
+    @include laptop{
+        margin-left: 4%;
+        width: fit-content;
+        white-space: nowrap;
+        padding: 8px 8px 8px 8px;
+        border: 1px solid white;
+        font-size: 1rem;
+        display: inline-block;
+        align-self: center;
+    }
+    @include desktop-md {
+        margin-top: 2.5%;
+    }
+    @include desktop-lg{
+        padding: 15px 15px 15px 15px;
+        margin-left: 4.5%;
     }
 }

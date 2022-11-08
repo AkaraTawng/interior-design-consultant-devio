@@ -17,12 +17,31 @@
         margin-left: 33%;
         bottom: -11%;
     }
+    @include laptop{
+        width: 53%;
+        margin-left: 40%;
+        bottom: -20.5%;
+        padding: 3% 3% 4% 4%;
+    }
+    @include desktop-md{
+        bottom: -13%;
+    }
+    @include desktop-lg{
+        width: 53%;
+        margin-left: 40%;
+        bottom: -19%;
+    }
     
     #face-image {
         width: 40%;
         height: 100%;
         border-radius: 50%;
         margin-top: -4%;
+        @include desktop-lg{
+            width: 55%;
+            height: 105%;
+            margin-top: -8%;
+        }
     }
 }
 
@@ -40,5 +59,8 @@
     flex-direction: column;
     width: 150%;
     margin-left: -19%;
+    @include desktop-lg{
+        margin-left: -8%;
+    }
 }
 
