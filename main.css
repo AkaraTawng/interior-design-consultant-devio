@@ -351,8 +351,8 @@ footer a {
     width: 13%;
   }
   #read-more-flex-container #read-more-underline::after {
-    left: 13.5%;
-    width: 115%;
+    left: 14%;
+    width: 100%;
   }
 }
 @media (min-width: 1530px) {
