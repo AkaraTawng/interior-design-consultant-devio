@@ -299,6 +299,11 @@ footer a {
     margin-top: 3%;
   }
 }
+@media (min-width: 1280px) {
+  #this-interior-supertitle {
+    display: none;
+  }
+}
 
 #read-more-flex-container {
   display: flex;
