@@ -287,6 +287,9 @@ footer a {
   font-size: 0.7rem;
   display: inline-block;
 }
+#this-interior-supertitle a {
+  text-decoration: none;
+}
 @media (min-width: 768px) {
   #this-interior-supertitle {
     font-size: 1rem;
