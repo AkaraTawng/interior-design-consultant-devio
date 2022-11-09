@@ -74,7 +74,7 @@ body a {
 }
 
 #nav-flex-container #this-interior-supertitle-large-screen {
-  font-size: 1.4rem;
+  font-size: 1rem;
 }
 #nav-flex-container #menu-icons-container {
   align-self: flex-end;
@@ -110,6 +110,11 @@ body a {
     font-size: 1.5rem;
   }
 }
+@media (min-width: 1280px) {
+  #nav-flex-container ul li a {
+    font-size: 1.2rem;
+  }
+}
 
 #header-h1 {
   font-family: "Lora", sans-serif;
@@ -126,7 +131,7 @@ body a {
 }
 @media (min-width: 1280px) {
   #header-h1 {
-    font-size: 2.8rem;
+    font-size: 2.5rem;
     margin-bottom: 8%;
   }
 }
@@ -154,7 +159,7 @@ body a {
 }
 @media (min-width: 1280px) {
   #header-p {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
 }
 @media (min-width: 1530px) {
@@ -180,7 +185,7 @@ body a {
 }
 @media (min-width: 1280px) {
   #read-more-link {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 }
 @media (min-width: 1530px) {
@@ -267,6 +272,13 @@ footer a {
   #header-p {
     padding-left: 2%;
     width: 40%;
+  }
+}
+@media (min-width: 1280px) {
+  #header-p {
+    width: 65%;
+    margin-bottom: 9%;
+    margin-top: 10%;
   }
 }
 
@@ -365,12 +377,12 @@ footer a {
 }
 @media (min-width: 1280px) {
   #read-more-flex-container #read-more-underline::before {
-    left: 9%;
-    width: 8%;
+    left: -14%;
+    width: 15%;
   }
   #read-more-flex-container #read-more-underline::after {
-    left: 17%;
-    width: 80%;
+    left: 1%;
+    width: 120%;
   }
 }
 @media (min-width: 1530px) {
@@ -404,6 +416,12 @@ footer a {
     margin-left: 1.5%;
   }
 }
+@media (min-width: 1280px) {
+  #read-more-flex-container {
+    width: 19%;
+    margin-left: 4%;
+  }
+}
 #read-more-flex-container p {
   align-self: center;
   font-size: 0.7rem;
@@ -426,6 +444,21 @@ footer a {
   width: 95%;
   height: 30%;
   margin: 0 auto;
+}
+
+@media (min-width: 1280px) {
+  #main-content-flex-container {
+    display: flex;
+    margin-top: 10%;
+    justify-content: space-around;
+  }
+  #main-content-flex-container header {
+    align-self: center;
+    margin-left: 5%;
+  }
+  #main-content-flex-container main {
+    margin-right: 5%;
+  }
 }
 
 .image-label-container {
@@ -631,14 +664,13 @@ footer {
 }
 @media (min-width: 1280px) {
   #this-interior-supertitle-large-screen {
-    margin-left: 4%;
+    margin-left: 6%;
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
     white-space: nowrap;
     padding: 8px 8px 8px 8px;
     border: 1px solid white;
-    font-size: 1rem;
     display: inline-block;
     align-self: center;
   }
