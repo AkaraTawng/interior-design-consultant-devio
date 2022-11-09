@@ -16,6 +16,9 @@
     @include desktop-md{
         width: 60%;
     }
+    @include desktop-lg{
+        width: 50%;
+    }
 }
 
 .this-interior-icon-container {
@@ -143,7 +146,13 @@
         }
 
         @include desktop-lg{
-
+            &::before{
+                left: -1%;
+            }
+    
+            &::after{
+                left: 14%;
+            }
         }
 
         &:hover::after{
@@ -155,6 +164,10 @@
     @include mobile-m {
         width: 25%;
         margin-left: 3%;
+         
+        #read-more-link {
+            white-space: nowrap;
+            }
     }
     @include mobile-l{
         width: 15%;
@@ -169,6 +182,9 @@
         width: 19%;
         margin-left: 4%;
     }
+    @include desktop-lg{
+        margin-left: 2%;//
+    }
 
     p {
         align-self: center;
@@ -177,12 +193,6 @@
     
     #read-more-arrow {
         align-self: flex-start;
-    }
-
-    @include mobile-m {
-        #read-more-link {
-        white-space: nowrap;
-        }
     }
 }
 

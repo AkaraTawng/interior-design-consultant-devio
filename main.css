@@ -137,7 +137,7 @@ body a {
 }
 @media (min-width: 1920px) {
   #header-h1 {
-    font-size: 3.7rem;
+    font-size: 3rem;
   }
 }
 
@@ -159,7 +159,7 @@ body a {
 }
 @media (min-width: 1920px) {
   #header-p {
-    font-size: 1.9rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -180,7 +180,7 @@ body a {
 }
 @media (min-width: 1920px) {
   #read-more-link {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
 }
 
@@ -269,6 +269,11 @@ footer a {
 @media (min-width: 1530px) {
   #header-p {
     width: 60%;
+  }
+}
+@media (min-width: 1920px) {
+  #header-p {
+    width: 50%;
   }
 }
 
@@ -383,6 +388,14 @@ footer a {
     left: 11%;
   }
 }
+@media (min-width: 1920px) {
+  #read-more-flex-container #read-more-underline::before {
+    left: -1%;
+  }
+  #read-more-flex-container #read-more-underline::after {
+    left: 14%;
+  }
+}
 #read-more-flex-container #read-more-underline:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
@@ -391,6 +404,9 @@ footer a {
   #read-more-flex-container {
     width: 25%;
     margin-left: 3%;
+  }
+  #read-more-flex-container #read-more-link {
+    white-space: nowrap;
   }
 }
 @media (min-width: 480px) {
@@ -412,17 +428,17 @@ footer a {
     margin-left: 4%;
   }
 }
+@media (min-width: 1920px) {
+  #read-more-flex-container {
+    margin-left: 2%;
+  }
+}
 #read-more-flex-container p {
   align-self: center;
   font-size: 0.7rem;
 }
 #read-more-flex-container #read-more-arrow {
   align-self: flex-start;
-}
-@media (min-width: 400px) {
-  #read-more-flex-container #read-more-link {
-    white-space: nowrap;
-  }
 }
 
 .image-image-label-container {
