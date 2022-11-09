@@ -82,14 +82,14 @@ body {
         padding-left: 2%;
     }
     @include laptop{
-        font-size: 2.5rem;//
+        font-size: 2.5rem;
         margin-bottom: 8%;
     }
     @include desktop-md{
         // font-size: 3.3rem;
     }
     @include desktop-lg{
-        font-size: 3.7rem;
+        font-size: 3rem;//
     }
 }
 
@@ -109,7 +109,7 @@ body {
     }
 
     @include desktop-lg{
-        font-size: 1.9rem;
+        font-size: 1.5rem;
     }
 }
 
@@ -126,7 +126,7 @@ body {
     @include desktop-md{
     }
     @include desktop-lg{
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
 }
 
