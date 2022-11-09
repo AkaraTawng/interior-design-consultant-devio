@@ -377,10 +377,10 @@ footer a {
 }
 @media (min-width: 1530px) {
   #read-more-flex-container #read-more-underline::before {
-    left: 10.5%;
+    left: -4%;
   }
   #read-more-flex-container #read-more-underline::after {
-    left: 18.5%;
+    left: 11%;
   }
 }
 #read-more-flex-container #read-more-underline:hover::after {

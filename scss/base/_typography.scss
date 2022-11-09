@@ -104,8 +104,10 @@ body {
     @include laptop{
         font-size: 1.2rem;//
     }
+    
     @include desktop-md{
     }
+
     @include desktop-lg{
         font-size: 1.9rem;
     }
