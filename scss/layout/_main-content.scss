@@ -9,9 +9,12 @@
         width:  40%;
     }
     @include laptop{
-        width: 65%;//
-        margin-bottom: 9%;//
-        margin-top: 10%;//
+        width: 65%;
+        margin-bottom: 9%;
+        margin-top: 10%;
+    }
+    @include desktop-md{
+        width: 60%;
     }
 }
 
