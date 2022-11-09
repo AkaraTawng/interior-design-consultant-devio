@@ -8,6 +8,11 @@
         padding-left: 2%;
         width:  40%;
     }
+    @include laptop{
+        width: 65%;//
+        margin-bottom: 9%;//
+        margin-top: 10%;//
+    }
 }
 
 .this-interior-icon-container {
@@ -45,7 +50,7 @@
     justify-content: space-around;
     margin-bottom: 7%;
     position: relative;
-
+    
     #read-more-underline {
         &::before{
             position: absolute;
@@ -113,13 +118,13 @@
 
         @include laptop{
             &::before{
-                left: 9%;
-                width: 8%;
+                left: -14%;
+                width: 15%;
             }
     
             &::after{
-                left: 17%;
-                width: 80%;
+                left: 1%;
+                width: 120%;
             }
         }
 
@@ -171,6 +176,10 @@
         width: 19%;
         margin-left: 1.5%;
     }
+    @include laptop{
+        width: 19%;
+        margin-left: 4%;
+    }
 
     p {
         align-self: center;
@@ -196,6 +205,24 @@
         width: 95%;
         height: 30%;
         margin: 0 auto;
+    }
+}
+
+#main-content-flex-container {
+    @include laptop{
+        display: flex;
+        margin-top: 10%;
+        justify-content: space-around;
+        // background: orange;
+
+        header {
+            align-self: center;
+            margin-left: 5%;
+        }
+
+        main {
+            margin-right: 5%;
+        }        
     }
 }
 
