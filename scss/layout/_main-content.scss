@@ -112,7 +112,15 @@
         }
 
         @include laptop{
-
+            &::before{
+                left: 9%;
+                width: 8%;
+            }
+    
+            &::after{
+                left: 17%;
+                width: 80%;
+            }
         }
 
         @include desktop-md{

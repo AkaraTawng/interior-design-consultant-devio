@@ -363,6 +363,16 @@ footer a {
     width: 100%;
   }
 }
+@media (min-width: 1280px) {
+  #read-more-flex-container #read-more-underline::before {
+    left: 9%;
+    width: 8%;
+  }
+  #read-more-flex-container #read-more-underline::after {
+    left: 17%;
+    width: 80%;
+  }
+}
 @media (min-width: 1530px) {
   #read-more-flex-container #read-more-underline::before {
     position: absolute;
