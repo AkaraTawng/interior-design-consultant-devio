@@ -9,6 +9,9 @@
     display: flex !important;
     height: 100vh !important;
     opacity: 1 !important;
+    @include laptop{
+        height: 7rem  !important;
+    }
 }
 
 .nav-ul-open {
@@ -52,7 +55,9 @@
     opacity: 1;
     @include laptop{
         display: flex;
+        position: fixed;
         // background-color: orange;
+        width: 100%;
         height: 7rem;
     }
         ul {
@@ -88,6 +93,7 @@
         }
         @include laptop{
             display: flex;
+            position: fixed;
             flex-direction: row;
             justify-content: space-around;
             opacity: 1;

@@ -28,7 +28,6 @@ footer, header, hgroup, menu, nav, section {
 
 body {
   line-height: 1;
-  overflow: hidden;
 }
 
 ol, ul {
@@ -550,9 +549,20 @@ footer a {
 }
 
 footer {
-  position: absolute;
-  position: absolute;
+  position: relative;
   bottom: 2%;
+  margin-top: 20rem;
+}
+@media (min-width: 1280px) {
+  footer {
+    margin-top: 30%;
+    height: 6.5rem;
+  }
+  footer p {
+    position: absolute;
+    bottom: 30%;
+    margin-left: 35%;
+  }
 }
 
 #menu-icons-container .open {
@@ -563,6 +573,11 @@ footer {
   display: flex !important;
   height: 100vh !important;
   opacity: 1 !important;
+}
+@media (min-width: 1280px) {
+  .nav-open {
+    height: 7rem !important;
+  }
 }
 
 .nav-ul-open {
@@ -612,6 +627,8 @@ footer {
 @media (min-width: 1280px) {
   #nav-flex-container {
     display: flex;
+    position: fixed;
+    width: 100%;
     height: 7rem;
   }
 }
@@ -645,6 +662,7 @@ footer {
 @media (min-width: 1280px) {
   #nav-flex-container ul {
     display: flex;
+    position: fixed;
     flex-direction: row;
     justify-content: space-around;
     opacity: 1;
