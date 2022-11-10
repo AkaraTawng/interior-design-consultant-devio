@@ -1,5 +1,16 @@
 footer {
- position: absolute;
-position: absolute;
+//  position: absolute;
+position: relative;
 bottom: 2%;
+margin-top: 20rem;
+@include laptop{
+    // position: sticky;
+    margin-top: 30%;
+    height: 6.5rem;
+    p {
+        position: absolute;
+        bottom: 30%;
+        margin-left:35%;
+    }
+}
 } 
