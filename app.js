@@ -5,7 +5,7 @@ var navUl = document.querySelector("#nav-ul");
 var navLi = document.querySelectorAll(".nav-li");
 var navLiLink = document.querySelectorAll(".nav-li-link");
 
-if(window.screen.width < 1280){
+
 /* open hamburger menu when open icon clicked */
     openIcon.addEventListener("click", () => {
         openIcon.classList.toggle("open");
@@ -37,5 +37,5 @@ if(window.screen.width < 1280){
             navLi.forEach(li => li.classList.toggle("nav-li-open"));
         });
     });
-}
+
 
