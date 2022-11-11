@@ -28,7 +28,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
   line-height: 1;
-  overflow: hidden;
+  overflow: visible;
 }
 
 ol, ul {
@@ -568,6 +568,10 @@ footer {
 
 #menu-icons-container .open {
   display: inline-block;
+}
+
+.hide-overflow {
+  overflow: hidden;
 }
 
 .nav-open {

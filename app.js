@@ -12,6 +12,7 @@ var navLiLink = document.querySelectorAll(".nav-li-link");
         closeIcon.classList.toggle("open");
         nav.classList.toggle("nav-open");
         navUl.classList.toggle("nav-ul-open");
+        document.body.classList.toggle("hide-overflow");
         navLi.forEach(item => {
             item.classList.toggle("nav-li-open");
         });
@@ -23,6 +24,7 @@ var navLiLink = document.querySelectorAll(".nav-li-link");
         closeIcon.classList.toggle("open");
         nav.classList.toggle("nav-open");
         navUl.classList.toggle("nav-ul-open");
+        document.body.classList.toggle("hide-overflow");
         navLi.forEach(item => item.classList.toggle("nav-li-open"));
     });
 
