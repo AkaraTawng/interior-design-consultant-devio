@@ -8,10 +8,6 @@
 
 <div align="center">
   <h3>
-    <a href="https://devchallenges.io/solutions/laHFSpjhQekohWxeEPak">
-      Demo
-    </a>
-    <span> | </span>
     <a href="https://interior-design-devio-chrischam.netlify.app/">
       Site
     </a>
@@ -40,7 +36,6 @@
 
 
 - Go to live [site](https://interior-design-devio-chrischam.netlify.app/)
-- See the demo [here](https://devchallenges.io/solutions/laHFSpjhQekohWxeEPak)
 - A sleek, minimalist design. The hardest feature to implement was the collapsing hamburger menu. 
 - Read more button features initial jiggling animation to draw user's attention and custom hover effect.
 
